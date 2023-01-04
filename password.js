@@ -21,3 +21,10 @@ const randomPassword = generatePassword(15);
 console.log(randomPassword);
 
 document.getElementById("password").value = randomPassword;
+
+function copyPassword(){
+    let copyText = document.getElementById("password");
+    copyText.select();
+    document.execCommand("copy");
+}
+
