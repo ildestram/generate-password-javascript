@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* user-select: fa in modo che l'utente non possa selezionare niente  */
+    user-select: none;
+}
+
+body {
+    background-color: rgb(153, 209, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box {
+    background-color: rgb(255, 252, 252);
+    padding-top: 30px;
+    padding: 30px;
+    height: 200px;
+    width: 500px;
+}
+
+.box h2 {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 26px;
+    color: black;
+    font-family: sans-serif;
+}
+
+input {
+    padding: 10px;
+    user-select: none;
+    /* height: 50px; */
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid lightpink;
+    outline: none;
+}
+
+/* in questo modo sono andata a centrare */
+input[type="text"]{
+    display: block;
+    margin: 0 auto;
+}
+
+input::placeholder {
+    font-size: 15px;
+}
+
+#button {
+    font-size: 15px;
+    margin-top: 20px;
+    border: 2px solid pink;
+    text-align: center;
+    width: 155px;
+    height: 30px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    color: black;
+    cursor: pointer;
+}
+
+
+
